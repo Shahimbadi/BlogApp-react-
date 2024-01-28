@@ -33,7 +33,7 @@ const BlogForm=()=>{
                             <InputLabel htmlFor="description" sx={{marginTop:'1vh'}}>Description:</InputLabel>
                             <TextareaAutosize variant='contained' id="description" name="description" minRows={5}></TextareaAutosize>
                                 
-                            <Button variant='contained' onClick={()=>{navigate('/home')}} type="submit" sx={{marginTop:'5vh'}}>Submit Blog</Button>
+                            <Button variant='contained' onClick={()=>{navigate('/')}} type="submit" sx={{marginTop:'5vh'}}>Submit Blog</Button>
                         </Stack>
                     </CardContent>
                 </Card>
